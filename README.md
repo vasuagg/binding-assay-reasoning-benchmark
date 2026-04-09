@@ -34,7 +34,7 @@ Binding assays are an ideal testbed for scientific reasoning because:
 
 ---
 
-## 📊 Benchmark Structure
+## Benchmark Structure
 
 The benchmark is organized into 4 task families:
 
@@ -56,7 +56,7 @@ Critique flawed reasoning or model outputs.
 
 ---
 
-## 🧩 Example Benchmark Item
+## Example Benchmark Item
 
 **Prompt:**
 
@@ -72,7 +72,7 @@ Critique flawed reasoning or model outputs.
 
 ---
 
-## 📏 Evaluation Criteria
+## Evaluation Criteria
 
 Responses are scored across:
 
@@ -85,7 +85,7 @@ Responses are scored across:
 
 ---
 
-## ⚠️ Common Failure Modes
+## Common Failure Modes
 
 * Overclaiming from limited evidence
 * Ignoring assay format differences
@@ -95,7 +95,7 @@ Responses are scored across:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 data/          Benchmark dataset (JSON)
@@ -107,7 +107,7 @@ notebooks/     Exploration and evaluation
 
 ---
 
-## 🔬 Scientific Rigor
+## Scientific Rigor
 
 * Benchmark items are **expert-authored**
 * Designed to reflect **real experimental ambiguity**
@@ -116,17 +116,10 @@ notebooks/     Exploration and evaluation
 
 ---
 
-## 🚧 Roadmap
+## Roadmap
 
 * v1: Expert-authored benchmark (40–60 items)
 * v2: Literature-derived scenarios
 * v3: Expert annotation + inter-rater agreement
 * v4: Multimodal inputs (sensorgrams, curves)
 
----
-
-## 📜 Citation
-
-If you use this work, please cite:
-
-(see `CITATION.cff`)
